@@ -169,3 +169,7 @@ button {
 
 /* ─── Section padding ───────────────────────────────────────── */
 .section-pad { padding: 7rem 5vw; }
+
+@media (max-width: 768px) {
+  .section-pad { padding: 4rem 6vw; }
+}
