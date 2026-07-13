@@ -19,9 +19,8 @@ export default function About() {
         <h2
           className={`about__headline reveal-left ${visible ? 'visible' : ''}`}
         >
-          Creating something<br />
-          out of<br />
-          Nothing.
+          Building things.<br />
+          Telling stories.
         </h2>
 
         <div
@@ -29,16 +28,17 @@ export default function About() {
           style={{ transitionDelay: '100ms' }}
         >
           <p>
-            Electrical engineering student. Photographer. Videomaker.
-            The order changes depending on the day.
+            I'm an electrical engineering student who also happens to love
+            photo and video work.
           </p>
           <p>
-            I chase people, smiles, and stories — the small honest things
-            that happen when nobody is performing. Photo and video are just
-            the two ways I keep them.
+            I like creating things — new ideas, new ways of looking at
+            something ordinary. But more than anything, I love telling
+            stories. A photo or a film is just the form that story happens
+            to take.
           </p>
           <p>
-            Based in Knoxville, Tennessee. Come say hi.
+            Based in Knoxville, Tennessee.
           </p>
         </div>
 
