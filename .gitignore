@@ -1,0 +1,17 @@
+# Dependencies & build output
+node_modules/
+dist/
+
+# Full-resolution originals — too large for git, kept locally only
+originals/
+
+# Local AI tooling state
+.gstack/
+.impeccable/
+.superpowers/
+.claude/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.log

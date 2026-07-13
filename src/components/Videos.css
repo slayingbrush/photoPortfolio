@@ -1,0 +1,81 @@
+.videos {
+  background: var(--bg-card);
+  border-top: 1px solid var(--border);
+}
+
+/* ── Header — matches the section grammar of the rest of the site ── */
+.videos__header {
+  display: flex;
+  align-items: baseline;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.videos__title {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 800;
+  font-style: italic;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  color: var(--ink);
+  text-wrap: balance;
+}
+
+.videos__meta {
+  font-family: var(--font-mono);
+  color: var(--ink-soft);
+  font-size: 0.6rem;
+  padding-bottom: 0.35rem;
+}
+
+/* ── Player ─────────────────────────────────────────────────── */
+.videos__frame {
+  max-width: 1100px;
+}
+
+.videos__player {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: var(--bg-deep);
+  object-fit: contain;
+}
+
+/* ── Empty state ────────────────────────────────────────────── */
+.videos__empty {
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.videos__empty-bar {
+  width: 2.5rem;
+  height: 2px;
+  background: var(--teal);
+  margin-bottom: 0.5rem;
+}
+
+.videos__empty-title {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.videos__empty-sub {
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  line-height: 1.8;
+  color: var(--ink-mid);
+  font-weight: 300;
+}
+
+.videos__empty-sub code {
+  font-family: monospace;
+  color: var(--teal);
+  font-size: 0.8rem;
+}
