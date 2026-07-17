@@ -38,7 +38,7 @@ export default function Videos() {
         >
           <video
             className="videos__player"
-            src={feature.src}
+            src={`${feature.src}#t=2`}
             controls
             preload="metadata"
             playsInline
